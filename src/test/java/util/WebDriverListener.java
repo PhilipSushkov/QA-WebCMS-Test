@@ -12,7 +12,7 @@ import org.testng.IInvokedMethodListener;
 import org.testng.ITestResult;
 
 public class WebDriverListener implements IInvokedMethodListener {
-    public BrowserMobProxy proxy = new BrowserMobProxyServer();
+    //public BrowserMobProxy proxy = new BrowserMobProxyServer();
 
     @Override
     public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
@@ -21,16 +21,17 @@ public class WebDriverListener implements IInvokedMethodListener {
             WebDriver driver = null;
             String browserName = method.getTestMethod().getXmlTest().getLocalParameters().get("browserName");
 
-            proxy.start(0);
+            //proxy.start(0);
 
             try {
-                driver = LocalDriverFactory.createInstance(browserName, proxy);
+                //driver = LocalDriverFactory.createInstance(browserName, proxy);
+                driver = LocalDriverFactory.createInstance(browserName);
             } catch (Exception e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             LocalDriverManager.setWebDriver(driver);
-            LocalDriverManager.setProxy(proxy);
+            //LocalDriverManager.setProxy(proxy);
         }
     }
 
@@ -40,7 +41,7 @@ public class WebDriverListener implements IInvokedMethodListener {
             WebDriver driver = LocalDriverManager.getDriver();
             if (driver != null) {
                 driver.quit();
-                proxy.stop();
+                //proxy.stop();
             }
         }
     }

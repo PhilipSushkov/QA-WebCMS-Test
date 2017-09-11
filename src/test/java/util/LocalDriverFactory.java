@@ -27,7 +27,7 @@ public class LocalDriverFactory {
 
     public static WebDriver createInstance(String browserName, BrowserMobProxy proxy) {
         WebDriver driver = null;
-        Proxy selProxy = ClientUtil.createSeleniumProxy(proxy);
+        //Proxy selProxy = ClientUtil.createSeleniumProxy(proxy);
 
         switch (browserName) {
             case "chrome":
@@ -36,14 +36,14 @@ public class LocalDriverFactory {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("incognito");
                 options.addArguments("no-sandbox");
-                capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+                //capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
-                capabilities.setCapability(CapabilityType.PROXY, selProxy);
-                capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                //capabilities.setCapability(CapabilityType.PROXY, selProxy);
+                //capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 
-                LoggingPreferences loggingprefs = new LoggingPreferences();
-                loggingprefs.enable(LogType.BROWSER, Level.ALL);
-                capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
+                //LoggingPreferences loggingprefs = new LoggingPreferences();
+                //loggingprefs.enable(LogType.BROWSER, Level.ALL);
+                //capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
                 driver = new ChromeDriver(capabilities);
 

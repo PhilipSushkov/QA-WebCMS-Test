@@ -1,6 +1,6 @@
 {
   "pages": [{
-    "do_assertions": false,
+    "do_assertions": true,
     "section_title": "Page_01",
     "section_title_ch": "Page_03",
     "page_type": "Internal",

@@ -78,7 +78,7 @@ public class CheckCrawlingSite {
 
     }
 
-    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=1, enabled=true)
+    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=1, enabled=false)
     public void checkSiteVersionAfter(String site) throws Exception {
         //crawlingSite = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile);
         String sSiteVersionAfter = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile).getSiteVersionAfter();
@@ -117,7 +117,7 @@ public class CheckCrawlingSite {
 
     }
 
-    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=2, enabled=false)
+    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=2, enabled=true)
     public void checkSiteVersionCookie(String site) throws Exception {
         //crawlingSite = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile);
         String sVersionActual = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile).getSiteVersionCookie(sCookie);
