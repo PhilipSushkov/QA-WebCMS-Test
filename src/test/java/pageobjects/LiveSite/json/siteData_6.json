@@ -1,6 +1,6 @@
 [
   {
-    "Site": "investors.ryder.com"
+    "Site": "rydersystem2017ir.q4web.com"
   },
   {
     "Site": "ir.ryerson.com"
@@ -9,7 +9,10 @@
     "Site": "ir.safeguard.com"
   },
   {
-    "Site": "safeharbour2017ipo.q4web.com"
+    "Site": "safeharbour2017corp.q4web.com"
+  },
+  {
+    "Site": "www.safeharbourplc.com"
   },
   {
     "Site": "investor.salesforce.com"
@@ -39,19 +42,31 @@
     "Site": "www.sellaslifesciences.com"
   },
   {
+    "Site": "selvaagbolig2017ir.q4web.com"
+  },
+  {
     "Site": "www.semafo.com"
   },
   {
     "Site": "ir.semgroupcorp.com"
   },
   {
+    "Site": "www.safetyincomegrowth.com"
+  },
+  {
     "Site": "investor.shakeshack.com"
   },
   {
-    "Site": "www.sherritt.com"
+    "Site": "sherritt.com"
+  },
+  {
+    "Site": "sherritt.com"
   },
   {
     "Site": "investors.shopify.com"
+  },
+  {
+    "Site": "shutterstock.q4web.com"
   },
   {
     "Site": "investors.sientra.com"
@@ -69,16 +84,13 @@
     "Site": "ir.silverstandard.com"
   },
   {
-    "Site": "www.silverwheaton.com"
+    "Site": "ir.ssrmining.com"
   },
   {
     "Site": "www.wheatonpm.com"
   },
   {
     "Site": "investor.siriusxm.com"
-  },
-  {
-    "Site": "www.sleepcountryir.ca"
   },
   {
     "Site": "www.sleepcountryir.ca"
@@ -94,6 +106,9 @@
   },
   {
     "Site": "investors.speedwaymotorsports.com"
+  },
+  {
+    "Site": "spotify2017ipo.q4web.com"
   },
   {
     "Site": "investors.sprint.com"
@@ -117,6 +132,9 @@
     "Site": "investor.starbucks.com"
   },
   {
+    "Site": "starbucks2017ir.q4web.com"
+  },
+  {
     "Site": "starwood.q4web.com"
   },
   {
@@ -138,7 +156,10 @@
     "Site": "investor.summerinfant.com"
   },
   {
-    "Site": "www.suncoke.com"
+    "Site": "investor.summerinfant.com"
+  },
+  {
+    "Site": "suncoke.q4web.com"
   },
   {
     "Site": "www.sunocolp.com"
@@ -150,7 +171,7 @@
     "Site": "www.supreme.ca"
   },
   {
-    "Site": "investor.susserpetroleumpartners.com"
+    "Site": "www.sunocolp.com"
   },
   {
     "Site": "investor.sykes.com"
@@ -165,13 +186,13 @@
     "Site": "synopsys.q4web.com"
   },
   {
-    "Site": "investors.sysco.com"
-  },
-  {
     "Site": "investors.tableau.com"
   },
   {
     "Site": "tahoeres.q4web.com"
+  },
+  {
+    "Site": "tapstone2017ipo.q4web.com"
   },
   {
     "Site": "www.targovax.com"
@@ -192,10 +213,10 @@
     "Site": "investors.te.com"
   },
   {
-    "Site": "ir.teladoc.com"
+    "Site": "teconnectivityir2016.q4web.com"
   },
   {
-    "Site": "tenda2016ir.q4web.com"
+    "Site": "ir.teladoc.com"
   },
   {
     "Site": "ir.tenda.com"
@@ -204,7 +225,7 @@
     "Site": "investors.tennantco.com"
   },
   {
-    "Site": "investor.teradata.com"
+    "Site": "teradata.q4web.com"
   },
   {
     "Site": "www.terangagold.com"
@@ -214,6 +235,9 @@
   },
   {
     "Site": "www.terrativedigital.com"
+  },
+  {
+    "Site": "tetrabiopharma.com"
   },
   {
     "Site": "investor.textron.com"
@@ -234,7 +258,7 @@
     "Site": "investors.timkensteel.com"
   },
   {
-    "Site": "www.tmacresources.com"
+    "Site": "tmacresources.com"
   },
   {
     "Site": "www.topbuild.com"
@@ -244,5 +268,29 @@
   },
   {
     "Site": "www.thirdpointre.com"
+  },
+  {
+    "Site": "travelcentersamerica2017ir.q4web.com"
+  },
+  {
+    "Site": "www.tremontcapital.com"
+  },
+  {
+    "Site": "tremontmortgage2017corp.q4web.com"
+  },
+  {
+    "Site": "trilliumtherapeutics.com"
+  },
+  {
+    "Site": "www.aceruspharma.com"
+  },
+  {
+    "Site": "investor.trinet.com"
+  },
+  {
+    "Site": "investor.trinseo.com"
+  },
+  {
+    "Site": "investor.tpvg.com"
   }
 ]

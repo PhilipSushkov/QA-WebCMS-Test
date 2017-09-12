@@ -25,7 +25,7 @@ import java.util.logging.Logger;
 public class LocalDriverFactory {
     public static final long DEFAULT_TIMEOUT = 5L;
 
-    public static WebDriver createInstance(String browserName, BrowserMobProxy proxy) {
+    public static WebDriver createInstance(String browserName) {
         WebDriver driver = null;
         //Proxy selProxy = ClientUtil.createSeleniumProxy(proxy);
 
@@ -48,7 +48,7 @@ public class LocalDriverFactory {
                 driver = new ChromeDriver(capabilities);
 
                 driver.manage().timeouts().implicitlyWait(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
-                driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS); //Increased to 20 to perhaps reduce timeouts?
+                driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS); //Increased to 20 to perhaps reduce timeouts?
 
                 return driver;
 

@@ -57,10 +57,10 @@ public class CheckCrawlingSite {
         cookieExtent = CookieExtentManager.GetExtent();
         after = AfterExtentManager.GetExtent();
 
-        sDataSiteJson_n = propUIPublicSite.getProperty("json_SiteData_2");
+        sDataSiteJson_n = propUIPublicSite.getProperty("json_SiteData_6");
     }
 
-    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=1, enabled=false)
+    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=1, enabled=true)
     public void checkSiteVersion(String site) throws Exception {
         //crawlingSite = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile);
         String sVersionActual = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile).getSiteVersion();
@@ -117,7 +117,7 @@ public class CheckCrawlingSite {
 
     }
 
-    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=2, enabled=true)
+    @Test(dataProvider=SITE_DATA_2, threadPoolSize=NUM_THREADS, priority=2, enabled=false)
     public void checkSiteVersionCookie(String site) throws Exception {
         //crawlingSite = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile);
         String sVersionActual = new CrawlingSite(LocalDriverManager.getDriver(), site, sPathToFile).getSiteVersionCookie(sCookie);

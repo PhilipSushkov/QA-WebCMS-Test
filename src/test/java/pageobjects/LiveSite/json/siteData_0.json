@@ -12,13 +12,16 @@
     "Site": "ir.acorda.com"
   },
   {
-    "Site": "annualreport2015.acorda.com"
+    "Site": "annualreports.acorda.com"
   },
   {
-    "Site": "www.acushnetholdings.com"
+    "Site": "www.acushnetholdingscorp.com"
   },
   {
     "Site": "investors.acxiom.com"
+  },
+  {
+    "Site": "adama2017ir.q4web.com"
   },
   {
     "Site": "ir.adeptushealth.com"
@@ -42,7 +45,13 @@
     "Site": "www.aes.com"
   },
   {
+    "Site": "aesblog2016.q4web.com"
+  },
+  {
     "Site": "ccr-eaglevalley.com"
+  },
+  {
+    "Site": "aesgener2016corp.q4web.com"
   },
   {
     "Site": "ccr-hardingstreet.com"
@@ -61,5 +70,242 @@
   },
   {
     "Site": "aesukireland.com"
+  },
+  {
+    "Site": "investors.agilityhealth.com"
+  },
+  {
+    "Site": "www.agnicoeagle.com"
+  },
+  {
+    "Site": "agrium.q4web.com"
+  },
+  {
+    "Site": "investors.airgain.com"
+  },
+  {
+    "Site": "www.alamosgold.com"
+  },
+  {
+    "Site": "www.aldridge.com.tr"
+  },
+  {
+    "Site": "aldridge2016rd.q4web.com"
+  },
+  {
+    "Site": "aljregional2017corp.q4web.com"
+  },
+  {
+    "Site": "www.alleghany.com"
+  },
+  {
+    "Site": "alleghanycc.com"
+  },
+  {
+    "Site": "investor.alteryx.com"
+  },
+  {
+    "Site": "altice2017ir.q4web.com"
+  },
+  {
+    "Site": "www.amereninvestors.com"
+  },
+  {
+    "Site": "investors.ae.com"
+  },
+  {
+    "Site": "americanmidstream.com"
+  },
+  {
+    "Site": "investors.amerigas.com"
+  },
+  {
+    "Site": "amerigas2017ir.q4web.com"
+  },
+  {
+    "Site": "buystock.ameri-metro.com"
+  },
+  {
+    "Site": "demo2.q4websystems.com"
+  },
+  {
+    "Site": "www.amtd.com"
+  },
+  {
+    "Site": "freshaccounts.amtd.com"
+  },
+  {
+    "Site": "investors.anixter.com"
+  },
+  {
+    "Site": "investors.anteroresources.com"
+  },
+  {
+    "Site": "investors.anteromidstream.com"
+  },
+  {
+    "Site": "www.investors.anteromidstreamgp.com"
+  },
+  {
+    "Site": "ir.aon.com"
+  },
+  {
+    "Site": "appfolio2017ir.q4web.com"
+  },
+  {
+    "Site": "ir.e-arc.com"
+  },
+  {
+    "Site": "investors.arista.com"
+  },
+  {
+    "Site": "investors.arista.com"
+  },
+  {
+    "Site": "investors.aritzia.com"
+  },
+  {
+    "Site": "asanko.com"
+  },
+  {
+    "Site": "www.ascendantresources.com"
+  },
+  {
+    "Site": "ir.aerogel.com"
+  },
+  {
+    "Site": "ir.assurant.com"
+  },
+  {
+    "Site": "investors.astronovainc.com"
+  },
+  {
+    "Site": "investors.atento.com"
+  },
+  {
+    "Site": "investors.atlassian.com"
+  },
+  {
+    "Site": "www.auraminerals.com"
+  },
+  {
+    "Site": "www.auricometals.ca"
+  },
+  {
+    "Site": "avaya.q4web.com"
+  },
+  {
+    "Site": "www.avedaenergy.com"
+  },
+  {
+    "Site": "ir.avenuetx.com"
+  },
+  {
+    "Site": "avianca2017corp.q4web.com"
+  },
+  {
+    "Site": "ir.avigilon.com"
+  },
+  {
+    "Site": "avigilon2012.q4web.com"
+  },
+  {
+    "Site": "ir.axaltacs.com"
+  },
+  {
+    "Site": "investors.babcock.com"
+  },
+  {
+    "Site": "ballard2016feeds.q4web.com"
+  },
+  {
+    "Site": "ballard2017ir.q4web.com"
+  },
+  {
+    "Site": "ir.barnesgroupinc.com"
+  },
+  {
+    "Site": "investors.barracuda.com"
+  },
+  {
+    "Site": "barracuda2017ir.q4web.com"
+  },
+  {
+    "Site": "www.barrick.com"
+  },
+  {
+    "Site": "investor.baxalta.com"
+  },
+  {
+    "Site": "newsroom.baxalta.com"
+  },
+  {
+    "Site": "burlingtoninvestors.com"
+  },
+  {
+    "Site": "investor.belden.com"
+  },
+  {
+    "Site": "www.bellushealth.com"
+  },
+  {
+    "Site": "investors.bestbuy.com"
+  },
+  {
+    "Site": "ir.bgcpartners.com"
+  },
+  {
+    "Site": "www.blackiron.com"
+  },
+  {
+    "Site": "investor.bkfs.com"
+  },
+  {
+    "Site": "ir.blackstone.com"
+  },
+  {
+    "Site": "blank.q4web.com"
+  },
+  {
+    "Site": "blank1.q4web.com"
+  },
+  {
+    "Site": "blankdev.q4web.com"
+  },
+  {
+    "Site": "www.blueshirtgroup.com"
+  },
+  {
+    "Site": "blueshirtasia2017corp.q4web.com"
+  },
+  {
+    "Site": "ir.buildwithbmc.com"
+  },
+  {
+    "Site": "bmo.q4web.com"
+  },
+  {
+    "Site": "online-annual-report-2016.bms.com"
+  },
+  {
+    "Site": "partnering-brochure.bms.com"
+  },
+  {
+    "Site": "globalcitizens.bms.com"
+  },
+  {
+    "Site": "ir.kopin.com"
+  },
+  {
+    "Site": "investor.bootbarn.com"
+  },
+  {
+    "Site": "www.boxinvestorrelations.com"
+  },
+  {
+    "Site": "ir.bridgepointeducation.com"
+  },
+  {
+    "Site": "investors.brinks.com"
   }
 ]

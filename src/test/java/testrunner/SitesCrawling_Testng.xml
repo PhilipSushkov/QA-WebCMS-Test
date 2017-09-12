@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Web CMS Suite Sites Crawling" parallel="instances" data-provider-thread-count="8">
+<suite name="Web CMS Suite Sites Crawling" parallel="instances" data-provider-thread-count="5">
     <listeners>
         <listener class-name="util.WebDriverListener"></listener>
     </listeners>

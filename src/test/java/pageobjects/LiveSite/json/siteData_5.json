@@ -3,6 +3,9 @@
     "Site": "www.opexatherapeutics.com"
   },
   {
+    "Site": "optiv2016ir.q4web.com"
+  },
+  {
     "Site": "investor.oracle.com"
   },
   {
@@ -18,9 +21,6 @@
     "Site": "investor.owenscorning.com"
   },
   {
-    "Site": "pacificCoal.q4web.com"
-  },
-  {
     "Site": "www.pacificdrilling.com"
   },
   {
@@ -30,6 +30,9 @@
     "Site": "www.pancongold.com"
   },
   {
+    "Site": "pancontinental2017corp.q4web.com"
+  },
+  {
     "Site": "www.paragonoffshore.com"
   },
   {
@@ -37,6 +40,9 @@
   },
   {
     "Site": "investor.partycity.com"
+  },
+  {
+    "Site": "patterson2017corp.q4web.com"
   },
   {
     "Site": "investors.paycom.com"
@@ -60,7 +66,13 @@
     "Site": "investor.phillips66.com"
   },
   {
+    "Site": "phillips662017ir.q4web.com"
+  },
+  {
     "Site": "unitholder.phillips66partners.com"
+  },
+  {
+    "Site": "phillips66partners2017ir.q4web.com"
   },
   {
     "Site": "www.pinnaclewest.com"
@@ -90,6 +102,9 @@
     "Site": "ir.polarpower.com"
   },
   {
+    "Site": "polight2017corp.q4web.com"
+  },
+  {
     "Site": "www.potashridge.com"
   },
   {
@@ -112,6 +127,9 @@
   },
   {
     "Site": "www.primaryenergyrecycling.com"
+  },
+  {
+    "Site": "primerica2017ir.q4web.com"
   },
   {
     "Site": "online-report.primeromining.com"
@@ -153,16 +171,16 @@
     "Site": "q4implementation3.q4web.com"
   },
   {
-    "Site": "q4inc2016rdssl.q4web.com"
-  },
-  {
-    "Site": "www.q4inc.com"
+    "Site": "q4inc.com"
   },
   {
     "Site": "www.q4web.com"
   },
   {
     "Site": "www.q4reports.com"
+  },
+  {
+    "Site": "q4rubix.q4web.com"
   },
   {
     "Site": "q4sandbox.q4web.com"
@@ -183,6 +201,9 @@
     "Site": "q4sandbox8.q4web.com"
   },
   {
+    "Site": "q4score.q4web.com"
+  },
+  {
     "Site": "qatest.q4web.com"
   },
   {
@@ -192,7 +213,13 @@
     "Site": "www.quarterhill.com"
   },
   {
+    "Site": "www.quarterhill.com"
+  },
+  {
     "Site": "investors.quotient.com"
+  },
+  {
+    "Site": "investor.rambus.com"
   },
   {
     "Site": "realindustryinc.com"
@@ -204,16 +231,16 @@
     "Site": "www.realtyincome.com"
   },
   {
-    "Site": "investors.remax.com"
+    "Site": "investors.regalbeloit.com"
   },
   {
-    "Site": "reservoirclone.q4web.com"
+    "Site": "investors.remax.com"
   },
   {
     "Site": "investors.resmed.com"
   },
   {
-    "Site": "www.reynoldsamerican.com"
+    "Site": "reynoldsamerican.com"
   },
   {
     "Site": "www.ricemidstream.com"
@@ -252,12 +279,21 @@
     "Site": "www.rowan.com"
   },
   {
+    "Site": "rowan2017corp.q4web.com"
+  },
+  {
+    "Site": "royaldutchshell2017ir.q4web.com"
+  },
+  {
     "Site": "www.royalgold.com"
   },
   {
-    "Site": "rubicon.q4web.com"
+    "Site": "rubiconminerals.com"
   },
   {
-    "Site": "rubiconminerals.com"
+    "Site": "rubix2015.q4web.com"
+  },
+  {
+    "Site": "investors.ryder.com"
   }
 ]
