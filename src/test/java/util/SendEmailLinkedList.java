@@ -14,6 +14,7 @@ import java.util.Properties;
 
 public abstract class SendEmailLinkedList {
     public static boolean sendEmail(LinkedList<String> testingResult) {
+        final String[] emailList = new String[] {"victorl@q4websystems.com", "philips@q4websystems.com", "karenl@q4inc.com"};
         final String username = "test@q4websystems.com";
         final String password = "testing!";
         Properties props = new Properties();
@@ -28,24 +29,26 @@ public abstract class SendEmailLinkedList {
                     }
                 });
         try {
-            Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("test@q4websystems.com"));
-            message.setRecipients(Message.RecipientType.TO,
-                    InternetAddress.parse("victorl@q4inc.com"));
-            message.setSubject("Gold Price Check Report " + new Date());
-            BodyPart messageBodyPart = new MimeBodyPart();
-            messageBodyPart.setText("Gold Price Check Report / " + new Date() + "\n");
-            Multipart multipart = new MimeMultipart();
-            multipart.addBodyPart(messageBodyPart);
-            Iterator<String> itr = testingResult.iterator();
-            while(itr.hasNext()) {
-                messageBodyPart = new MimeBodyPart();
-                messageBodyPart.setText(itr.next() + "\n");
+            for(int ii = 0; ii < emailList.length; ii++) {
+                Message message = new MimeMessage(session);
+                message.setFrom(new InternetAddress("test@q4websystems.com"));
+                message.setRecipients(Message.RecipientType.TO,
+                        InternetAddress.parse(emailList[ii]));
+                message.setSubject("Gold Price Check Report " + new Date());
+                BodyPart messageBodyPart = new MimeBodyPart();
+                messageBodyPart.setText("Gold Price Check Report / " + new Date() + "\n");
+                Multipart multipart = new MimeMultipart();
                 multipart.addBodyPart(messageBodyPart);
+                Iterator<String> itr = testingResult.iterator();
+                while (itr.hasNext()) {
+                    messageBodyPart = new MimeBodyPart();
+                    messageBodyPart.setText(itr.next() + "\n");
+                    multipart.addBodyPart(messageBodyPart);
+                }
+                message.setContent(multipart);
+                Transport.send(message);
+                System.out.println("Message is sent to: " + emailList[ii]);
             }
-            message.setContent(multipart);
-            Transport.send(message);
-            System.out.println("Message is sent");
             return true;
         } catch (MessagingException e) {
             throw new RuntimeException(e);
