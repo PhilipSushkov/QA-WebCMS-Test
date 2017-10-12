@@ -5,6 +5,7 @@
       "region_name": "Misc 1 Testing",
       "region_name_ch": "Misc 1 Testing Changed",
       "region_global_operation": "Global Operation",
+      "region_global_operation_ch": "Global Operation",
       "tags": "Testing",
       "region_body": "This is a test body",
       "region_body_ch": "This is a test body changed",

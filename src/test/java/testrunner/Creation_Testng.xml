@@ -124,11 +124,6 @@
             <class name="specs.ContentAdmin.DepartmentList.CheckDepartmentAdd" />
         </classes>
     </test>
-    <test name="CheckPressReleaseAdd">
-        <classes>
-            <class name="specs.ContentAdmin.PressReleases.CheckPressReleaseAdd" />
-        </classes>
-    </test>
 
     <test name="CreateNewUser">
         <classes>

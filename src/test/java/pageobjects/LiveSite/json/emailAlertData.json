@@ -22,7 +22,7 @@
       "do_assertions": true,
       "name": "Checking for not having any mailing lists selected",
       "fail": true,
-      "mailing_list": false,
+      "mailing_list": true,
       "unsubscribe": false,
       "email": "email@email.com",
       "expected": "Mailing list selection is required."
